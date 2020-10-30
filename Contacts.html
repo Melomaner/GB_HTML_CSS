@@ -10,47 +10,66 @@
 </head>
 
 <body>
-    <div class="top_content">
-        <div class="info_site">
-            <div class="menu_site">
-                <Ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="Contacts.html">Контакты</a></li>
-                </Ul>
-            </div>
+
+    <div class="contact">
+        <div class="menu_site">
+            <div class="menu"><a href="index.html">Главная</a></div>
+            <div class="menu"><a href="Contacts.html">Контакты</a></div>
+        </div>
+        <div class="middle_text">
             <h2 class="lower_headline">Contact Us</h2>
-            <div class="menu_site">
-                <div class="news_site">
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <img src="image/Green_appl.png" alt="Green_apple">
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contact_body">
+            <div class="contact_info">
+                <div class="contact_img">
+                    <img src="image/Green_appl.png" width="200px" alt="Green_apple">
+                </div>
+                <div class="contact_address">
+                    <h4 class="lower_title">Address</h4>
+                    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur.</p>
+                </div>
+                <div class="contact_phone">
+                    <h4 class="lower_title">Phone</h4>
+                    <ul>
+                        <li>555-55-55</li>
+                        <li>666-66-66</li>
+                    </ul>
+                </div>
+                <div class="contact_online">
+                    <h4 class="lower_title">Online service</h4>
+                    <ul>
+                        <li>OnlineService.com</li>
+                        <li>mail@mail.ru</li>
+                    </ul>
                 </div>
             </div>
+            <div class="contact_form">
+                <form action="#">
 
+                    <h4 class="lower_title">Send us message</h4>
+                    <div class="form_name">
+                        Full Name: <input class="used_text" type="text" placeholder="Name">
+                    </div>
+                    <div class="form_email">
+                        Email: <input class="used_text" type="email" placeholder="mail@mail.ru">
+                    </div>
+                    <div class="form_message">
+                        Message: <br>
+                        <textarea class="used_text" cols=" 30" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form_button">
+                        <button class="used_button" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-    <div class="info_site">
-        <h4 class="lower_title">Address</h4>
-        <p class="paragraph">Lorem ipsum dolor, sit amet consectetur.</p>
-        <h4 class="lower_title">Phone</h4>
-        <ul>
-            <li>555-55-55</li>
-            <li>666-66-66</li>
-        </ul>
-        <h4 class="lower_title">Online service</h4>
-        <ul>
-            <li>OnlineService.com</li>
-            <li>mail@mail.ru</li>
-        </ul>
-        <form action="#">
-            <h4 class="lower_title">Send us message</h4>
-            Full Name: <input class="used_text" type="text" placeholder="Name"><br>
-            Email: <input class="used_text" type="email" placeholder="mail@mail.ru"><br>
-            Message: <br>
-            <textarea class="used_text" cols=" 30" rows="5" placeholder="Message"></textarea><br>
-            <button class="used_button" type="submit">Submit</button>
-        </form>
-        <script type="text/javascript" charset="utf-8" async
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac8e566a718fd35e406b4e163d00c35c5accb3e5a5f3571664c93be13bcf2c5c5&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        <div class="map">
+            <div>
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac8e566a718fd35e406b4e163d00c35c5accb3e5a5f3571664c93be13bcf2c5c5&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
     </div>
     <div class="footer_main_box">
         <div class="footer_head">
@@ -61,11 +80,11 @@
         </div>
         <hr>
         <div class="footer_info">
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                <li>Номер телефона: 555-55-55</li>
-                <li>Адрес электронной почты: mail@mail.ru</li>
-            </ul>
+            <div class="footer_contacts">
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                <div>Номер телефона: 555-55-55</div>
+                <div>Адрес электронной почты: mail@mail.ru</div>
+            </div>
             <div class="footer_rights">
                 <p class="paragraph">Все права защищены&copy;</p>
             </div>
