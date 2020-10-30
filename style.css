@@ -300,7 +300,6 @@ body {
     background-image: url(image/top_back_cont.png);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 100%;
     margin-top: 54px;
     padding: 50px 0;
 }
@@ -403,6 +402,7 @@ body {
 }
 .contact_info{
     margin-top: 135px;
+    margin-right: 100px;
 }
 .contact_info_head{
     font-weight: 500;
@@ -430,7 +430,6 @@ body {
 
 .contact_address{
     width: 300px;
-    margin-right: 100px;
     margin-top: 24px;
 }
 
@@ -441,7 +440,15 @@ body {
     color: #1F3F68;
     list-style-type: none;
 }
-
+.footer_marker_A::before{
+    content: "A.";
+}
+.footer_marker_T::before{
+    content: "T.";
+}
+.footer_marker_E::before{
+    content: "E.";
+}
 
 
 
@@ -495,6 +502,10 @@ body {
     .footer_rights{
         padding-left: 92px;
         padding-right: 92px;
+    }
+    .contact_body{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -633,7 +644,45 @@ body {
     .footer_marker{
         margin-bottom: 17px;
     }
-
+    .contact_info{
+        margin-top: 46px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact_form{
+        max-width: 345px;
+        padding: 35px;
+        width: 80%;
+    }
+    .used_text{
+        margin: 13px 0 13px 26px;
+    }
+    .top__contacts_text{
+        font-size: 16px;
+    }
+    .top__contacts_headline{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .form_heading-mini{
+        margin-bottom: 31px;
+        font-size: 16px;
+    }
+    .form_text{
+        font-size: 14px;
+    }
+    .form_button{
+        margin-top: 46px;
+    }
+    .footer_marker_A::before{
+        content: "1.";
+    }
+    .footer_marker_T::before{
+        content: "2.";
+    }
+    .footer_marker_E::before{
+        content: "3.";
+    }
     
  
 
