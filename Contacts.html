@@ -13,8 +13,8 @@
 
     <div class="container top__box">
         <ul class="header">
-            <li><a href="index.html"><img src="image/Logo.svg" alt="logo"></a></li>
-            <li><a href="Contacts.html"><img src="image/Contact.svg" alt=""></a></li>
+            <li><a href="index.html" class="logo_link"><img src="image/Logo.svg" alt="logo"></a></li>
+            <li><a href="Contacts.html" class="logo_link"><img src="image/Contact.svg" alt=""></a></li>
         </ul>
     </div>
 
@@ -40,18 +40,27 @@
             <div class="contact_phone">
                 <h4 class="contact_info_head">PHONE</h4>
                 <ul>
-                    <li class="text_phone_contact"><img class="icon_contact" src="image/phone.svg"> +7-812-7313-4321
+                    <li class="text_phone_contact">
+                        <img class="icon_contact" src="image/phone.svg">
+                        <a href="#" class="online_contact_link">+7-812-7313-4321</a>
                     </li>
-                    <li class="text_phone_contact"><img class="icon_contact" src="image/phone.svg"> +7-817-0000-1234
+                    <li class="text_phone_contact">
+                        <img class="icon_contact" src="image/phone.svg">
+                        <a href="#" class="online_contact_link">+7-817-0000-1234</a>
                     </li>
                 </ul>
             </div>
             <div class="contact_online">
                 <h4 class="contact_info_head">ONLINE SERVICE</h4>
                 <ul>
-                    <li class="text_online_contact"><img class="icon_contact" src="image/Planet.svg">OnlineService.com
+                    <li class="text_online_contact">
+                        <img class="icon_contact" src="image/Planet.svg">
+                        <a href="#" class="online_contact_link">www.site.com</a>
                     </li>
-                    <li class="text_online_contact"><img class="icon_contact" src="image/massage.svg">mail@mail.ru</li>
+                    <li class="text_online_contact">
+                        <img class="icon_contact" src="image/massage.svg">
+                        <a href="mailto:hello.site@gmail.com" class="online_contact_link">hello.site@gmail.com</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -59,25 +68,19 @@
             <h4 class="form_heading-mini">SEND US MESSAGE</h4>
             <div class="form_text">
                 Full Name: <br>
-                <div class="used_text_box">
-                    <div class="used_text">Your Name</div>
-                </div>
+                <input type="text" placeholder="Your Name" class="used_text_box">
             </div>
             <div class="form_text">
                 Email: <br>
-                <div class="used_text_box">
-                    <div class="used_text">Your Email</div>
-                </div>
+                <input type="email" placeholder="Your Email" class="used_text_box">
             </div>
             <div class="form_text">
                 Message: <br>
-                <div class="used_text_box_massage">
-                    <div class="used_text">Your Message</div>
-                </div>
+                <textarea class="used_text_box_massage" placeholder="Your Message"></textarea>
             </div>
-            <div class="form_button">
+            <button type="submit" class="form_button">
                 SUBMIT
-            </div>
+            </button>
         </div>
     </form>
     <div class="container contact_map">
@@ -107,11 +110,11 @@
                 </div>
                 <div class="footer_marker">
                     <spawn class="footer_marker_T"></spawn>
-                    <div class="footer_box_info"> +7-812-7313-4321</div>
+                    <a href="#" class="footer_box_info link_info"> +7-812-7313-4321</a>
                 </div>
                 <div class="footer_marker">
                     <spawn class="footer_marker_E"></spawn>
-                    <div class="footer_box_info"> hello.site@gmail.com</div>
+                    <a href="mailto:hello.site@gmail.com" class="footer_box_info link_info"> hello.site@gmail.com</a>
                 </div>
             </div>
             <div class="footer_rights">
