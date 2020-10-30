@@ -15,6 +15,10 @@ body {
     opacity: 0.6;
 }
 
+.arrow__img{
+    width: 15px;
+    margin-left: 10px;
+}
 .text_project{
     width: 75%;
     margin: 32px auto 64px;
@@ -43,27 +47,8 @@ body {
     margin-bottom: 14px;
 }
 
-.used_text { 
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    opacity: 0.4;
-}
-
-.used_button{
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
 .top{
-    height: 768px;
+    min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);    
 }
 
@@ -108,6 +93,8 @@ body {
     background-image: url(image/top_back.png);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
+    padding-bottom: 100px; 
 }
  
 .lower_headline {
@@ -118,7 +105,8 @@ body {
 
 .card{
     width: 359px;
-    padding: 44px 32px;
+    box-sizing: border-box;
+    padding: 40px 32px 44px;
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -126,9 +114,10 @@ body {
     flex-direction: column;
 }
 
-.card__img{
+.card__img {
     align-self: center;
     margin-bottom: 51px;
+    width: 211px;
 }
 
 .card-box{
@@ -139,6 +128,7 @@ body {
 }
 
 .card__link{
+    margin-top: 10px;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -154,18 +144,18 @@ body {
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 1366px;
     margin: 0 auto;
+    padding: 0 113px;
 }
 
 .project{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .project__img{
     width: 100%;
-
 }
 
 .project__text{
@@ -177,6 +167,7 @@ body {
     position: absolute;
     top:64px;
     right: 64px;
+    font-weight: 300;
 
 }
 
@@ -220,8 +211,7 @@ body {
 }
 
 .footer_top_box{
-    width: 495px;
-   
+    max-width: 495px;
 }
 
 .footer_hr{
@@ -291,16 +281,360 @@ body {
     opacity: 0.4;
 }
 
-.contact_body{
-    display: flex;
-    justify-content: space-around;
-}
-
-.main{
-    display: flex;
-}
-
 .footer_rights{
     margin: 64px 0;
     display: inline-block;
+}
+
+.footer_marker{
+    display: flex;
+    max-width: 352px;
+    justify-content: space-around;
+}
+
+.footer_box_info{
+    max-width: 317px;
+    margin-left: 20px;
+}
+.top_contacts{
+    background-image: url(image/top_back_cont.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 100%;
+    margin-top: 54px;
+    padding: 50px 0;
+}
+.top__contacts_heading{
+    max-width: 780px;
+    text-align: center;
+}
+
+.top__contacts_headline{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.top__contacts_text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form{
+    width: 540px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 56px;
+    margin-top: 57px;
+}
+
+.form_heading-mini{
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.form_text{
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.used_text_box{
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-top: 8px;
+    
+}
+
+.used_text_box_massage{
+    height: 144px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.used_text{
+    margin: 21px 0 21px 42px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+}
+.form_button{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; 
+    padding: 23px 0;
+    margin-top: 72px;
+}
+.contact_map{
+    margin-top: 96px;
+}
+.contact_info{
+    margin-top: 135px;
+}
+.contact_info_head{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.icon_contact{
+    margin-right: 19px;
+    margin-top: 16px;
+}
+
+.text_phone_contact{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    list-style-type: none;
+}
+
+.contact_address{
+    width: 300px;
+    margin-right: 100px;
+    margin-top: 24px;
+}
+
+.text_online_contact{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    list-style-type: none;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info{
+       background-position: right 220px;
+    }
+
+    .card{
+        margin-bottom: 32px;
+    }
+
+    .card-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_top_button{
+        padding: 7px 30px;
+    }
+    .footer_top_box{
+        max-width: 336px;
+    }
+    .footer_top{
+        padding-left: 92px;
+        padding-right: 92px;
+        padding: 47px 92px 64px;
+    }
+    .footer_botton{
+        padding-left: 92px;
+        padding-right: 92px;
+        flex-direction: column;
+        align-items: left;
+    }
+    .footer_box_info{
+        max-width: 455px;
+        margin-left: 40px;
+      
+    }
+    .footer_marker{
+        max-width: 500px;
+        justify-content: left;
+        margin-bottom: 25px;
+    }
+    .footer_rights{
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+}
+
+@media (max-width: 717px){
+
+    .header{
+        padding-top: 24px;
+    }
+
+    .top__heading{
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .top_text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        min-height: 376px;
+        box-sizing: border-box;
+    }
+    .top__info{
+        padding-top: 36px;
+        padding-bottom: 41px;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_button{
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        padding: 0 8px;
+        margin-top: 32px;
+
+    }
+    .top__heading{
+        margin-bottom: 12px;
+        max-width: 260px;
+    }
+    .heading{
+        font-size: 24px;
+        line-height: 28px;       
+        letter-spacing: normal;
+    }
+    
+    .what-we-do{
+            padding-top: 48px;
+    }
+
+    .card{
+        width: 100%;
+        padding: 40px 30px 25px;
+    }
+
+    .card-box{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .text_project {
+        width: 100%;
+    }
+
+    .project__text{
+        font-size: 16px;
+        line-height: 19px; 
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__text_parent{
+        left: 16px;
+        top: 26px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .project__parent{
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__item_margin{
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer_top{
+        flex-direction: column;
+        text-align: center;
+        padding: 18px 0px 41px;
+    }
+    .footer_top_box{
+        padding-bottom: 40px;
+        max-width: 343px
+    }
+    
+    .footer_title{
+        font-size: 24px;
+        line-height: 28px;
+        width: 278px; 
+        margin: auto;
+    }
+
+    .footer_rights{
+        padding:0;
+    }
+    
+    .footer_main_box{
+        text-align: center;
+        margin-top: 64px;
+    }
+
+    .footer_botton{
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 32px;
+    }
+
+    .footer_rights{
+        margin: 32px 0;
+    }
+
+    .footer_marker{
+        margin-bottom: 17px;
+    }
+
+    
+ 
+
 }
