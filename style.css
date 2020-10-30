@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: sans-serif;
 }
@@ -11,6 +15,10 @@ body {
 .headline {
     font-size: 64px;
     color: #1F3F68;
+    width: 510px;
+}
+.headline :after {
+    width: 425px;
 }
 
 .lower_headline {
@@ -47,4 +55,82 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.menu_site{
+    border: 5px solid rgb(0, 177, 0);
+    margin: 20px 0px;
+    padding: 3px 0px 1px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start_content{
+    border: 5px solid rgb(1, 224, 202);
+    margin: 70px 0px;
+    width:  700px;
+    height: 250px;
+    padding: 50px 0px;
+}
+
+.info_site{
+    border: 5px solid rgb(142, 56, 255);
+    height: 800px;
+    margin: 0px 130px;
+    padding-top: 20px;
+
+}
+
+.top_content{
+    border: 5px solid rgb(110, 0, 0);
+    margin-bottom: 50px;
+}
+
+.news_site{
+    border: 5px solid rgb(194, 1, 146);
+    margin: 20px 0px;
+    width: 33%;
+    height: 600px;
+    padding: 3px 50px 3px 30px;
+    box-sizing: border-box;
+}
+
+.middle_text{
+    border: 5px solid rgb(206, 2, 2);
+    padding: 20px 300px 30px 300px;
+    margin: 10px 130px;
+
+}
+
+.footer_main_box{
+    border: 5px solid rgb(180, 0, 0);
+    margin-top: 100px;
+    color: #FFFFFF;
+    background-color: rgb(0, 95, 150);
+}
+
+.footer_head{
+    border: 5px solid rgb(241, 248, 141);
+    margin: 0px 130px;
+}
+
+.footer_text{
+    border: 5px solid rgb(185, 118, 168);
+    margin: 50px 0px 30px 0px;
+    width: 40%;
+    padding: 10px 0px 20px 0px;
+}
+
+.footer_info{
+    border: 5px solid rgb(110, 224, 119);
+    margin: 10px 130px 0px;
+    padding: 50px 0px;
+
+}
+
+.footer_rights{
+    border: 5px solid rgb(193, 202, 218);
+    margin: 50px 0px;
+    padding: 20px 0px;
 }
